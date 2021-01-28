@@ -1,8 +1,18 @@
-# Adoption Website
+# Pet Adoption
 
-## Setup
-* Clone this repo to your exercises directory
-* Create a setup branch and push up the usual stuff
-* Review the [Instructions](instructions.md)
+## Overview
 
-# UPDATE THIS README WHEN THE ASSIGNMENT IS COMPLETED
+ A single page app where you can filter by different pets with buttons at the top. Or show all pets.
+ 
+## Deployed Project
+
+## Project Board
+ n/a
+## Features
+
+- Pet cards are dynamically added to the DOM
+- Buttons filter cards by type
+- Delete button that is dynamically added to pet cards deletes the card its on when clicked
+
+## Screenshots
+
