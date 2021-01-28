@@ -16,6 +16,11 @@
 
 ## Screenshots
 
+#### Landing Page
 ![Landing Page](https://github.com/jrobinson0529/pet-adoption/blob/master/img/mainpage.png)
+#### Filtered Page
 ![Filtered by cats](https://github.com/jrobinson0529/pet-adoption/blob/master/img/filtered.png)
+#### Filtered Dinos and deletes
 ![Filtered by dinos and deletes](https://github.com/jrobinson0529/pet-adoption/blob/master/img/filtered-deleted-dino.png)
+
+
