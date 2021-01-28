@@ -16,3 +16,6 @@
 
 ## Screenshots
 
+![](https://github.com/jrobinson0529/pet-adoption/blob/master/img/mainpage.png)
+![](https://github.com/jrobinson0529/pet-adoption/blob/master/img/filtered.png)
+![](https://github.com/jrobinson0529/pet-adoption/blob/master/img/filtered-deleted-dino.png)
