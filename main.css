@@ -27,8 +27,19 @@ body .btn-group-lg .btn {
   width: 100px;
   margin: 1em;
 }
+body .btn-group-lg .btn:focus,
+body .btn-group-lg .btn:active {
+  outline: none;
+  -moz-out-style: none;
+  border-color: #bdbdbd;
+  box-shadow: #bdbdbd 0px 0px 0px 2px;
+}
 body .btn-group-lg #cat {
   background-color: purple;
+}
+body .btn-group-lg #cat:hover, body .btn-group-lg #dog:hover, body .btn-group-lg #dino:hover {
+  filter: brightness(85%);
+  transition: 300ms;
 }
 body .btn-group-lg #dog {
   background-color: orangered;

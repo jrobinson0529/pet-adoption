@@ -1,3 +1,4 @@
+
 // Palette for page
 $primary-color-dark: #0097a7;
 $primary-color: #00bcd4;
@@ -8,6 +9,11 @@ $primary-text-color: #212121;
 $secondary-text-color: #757575;
 $divider-color: #bdbdbd;
 // End palette
+
+// Button Color Variables
+$cat-button-color: purple;
+$dog-button-color: orangered;
+$dino-button-color: green;
 
 // Fonts
 $pet-name-font: "Architects Daughter", cursive;
@@ -39,9 +45,20 @@ body {
       width: 100px;
       margin: 1em;
     }
-    #cat {
-      background-color: purple;
+    .btn:focus,
+    .btn:active {
+      outline: none;
+      -moz-out-style: none;
+      border-color: $divider-color;
+      box-shadow: $divider-color 0px 0px 0px 2px;
     }
+    #cat {
+      background-color: $cat-button-color;
+    }
+     #cat:hover, #dog:hover, #dino:hover {
+      filter: brightness(85%);
+      transition: 300ms;
+     }
     #dog {
       background-color: orangered;
     }
