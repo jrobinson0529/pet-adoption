@@ -28,3 +28,13 @@
 
 #### Updated Styling
 ![Updated Styling](https://github.com/jrobinson0529/pet-adoption/blob/master/img/1-29-petadoption.gif)
+
+## Contributors
+
+[Matthew Gonzales](https://github.com/GonzalesMatthew)
+
+[Jesse Robinson](https://github.com/jrobinson0529)
+
+[Mitchell Crumbley](https://github.com/Mitchell-Crumbley)
+
+[Lindsey Satterfield](https://github.com/lindseysatterfield)
