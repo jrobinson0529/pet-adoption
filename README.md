@@ -2,12 +2,13 @@
 
 ## Overview
 
- A single page app where you can filter by different pets with buttons at the top. Or show all pets.
- 
+A single page app where you can filter by different pets with buttons at the top. Or show all pets.
+If you don't like a pet you can delete it as well!
 ## Deployed Project
-
+Have plans to deploy with netlify
 ## Project Board
- n/a
+
+https://github.com/jrobinson0529/pet-adoption/projects/1
 ## Features
 
 - Pet cards are dynamically added to the DOM
@@ -19,3 +20,7 @@
 ![](https://github.com/jrobinson0529/pet-adoption/blob/master/img/mainpage.png)
 ![](https://github.com/jrobinson0529/pet-adoption/blob/master/img/filtered.png)
 ![](https://github.com/jrobinson0529/pet-adoption/blob/master/img/filtered-deleted-dino.png)
+
+## Contributors
+
+- [Jesse Robinson](https://github.com/jrobinson052)
