@@ -6,6 +6,9 @@
  
 ## Deployed Project
 
+## MockUp
+
+![Mockup](https://github.com/jrobinson0529/pet-adoption/blob/07b64ebc0a1c43c95c5e739b8f3708453a03937e/MockUp1.png)
 ## Project Board
  n/a
 ## Features
@@ -23,4 +26,5 @@
 #### Filtered Dinos and deletes
 ![Filtered by dinos and deletes](https://github.com/jrobinson0529/pet-adoption/blob/master/img/filtered-deleted-dino.png)
 
-
+#### Updated Styling
+![Updated Styling](https://github.com/jrobinson0529/pet-adoption/blob/master/img/1-29-petadoption.gif)

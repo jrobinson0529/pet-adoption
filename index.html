@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bree+Serif&family=Karla:ital@1&display=swap" rel="stylesheet">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,17 +14,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Adoption</title>
   </head>
-  <body>
+  <body class="d-flex flex-column align-items-center text-center">
+    <header>
+      <h1 class="display-1">Welcome to the Pet Adoption Browser!</h1>
+      <h3 class="fst-italic">We hope you enjoy your stay!</h3>
+    </header>
     <!-- Buttons -->
-    <div class="btn-group d-flex justify-content-between">
-      <button type="button" id="all" class="btn btn-primary bg-danger">All</button>
-      <button type="button" id="cat" class="btn btn-primary bg-primary">Cat</button>
-      <button type="button" id="dog" class="btn btn-primary bg-warning">Dog</button>
-      <button type="button" id="dino" class="btn btn-primary bg-dark">Dino</button>
+    <h4>filter buttons</h4>
+    <div class="d-flex justify-content-center btn-group-lg">
+      <button type="button" id="all" class="btn btn-primary">All</button>
+      <button type="button" id="cat" class="btn btn-primary">Cat</button>
+      <button type="button" id="dog" class="btn btn-primary">Dog</button>
+      <button type="button" id="dino" class="btn btn-primary">Dino</button>
     </div>
 
     <!-- Pet Cards -->
-    <div id="pet-card-container" class="d-flex flex-wrap justify-content-evenly"></div>
+    <div id="pet-card-container" class="d-flex flex-wrap justify-content-evenly w-auto m-5 p-5"></div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
