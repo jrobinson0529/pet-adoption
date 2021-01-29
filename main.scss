@@ -1,0 +1,97 @@
+// Palette for page
+$primary-color-dark:   #0097A7;
+$primary-color:        #00BCD4;
+$primary-color-light:  #B2EBF2;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #536DFE;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #BDBDBD;
+// End palette
+
+// Fonts
+$pet-name-font: 'Architects Daughter', cursive;
+$main-font: 'Bree Serif', serif;
+$pet-description-font: 'Karla', sans-serif;
+html {
+  font-size: 15px;
+}
+body {
+  color: $primary-color-text;
+  background-color: $primary-color-dark;
+  font-family: $main-font;
+  header {
+  margin: 7em 5em 14em;
+  }
+  h3 {
+  margin: 3em auto 10em;
+  }
+  h4 {
+    font-family: $pet-description-font;
+    color: $secondary-text-color;
+  }
+  h1 {
+  margin-top: 4em
+  }
+.btn-group-lg {
+  margin-top: 1em;
+  .btn {
+   width: 100px;
+   margin: 1em;
+ }
+  #cat {
+    background-color: purple;
+  }
+  #dog {
+    background-color: orangered;
+  }
+  #dino {
+    background-color: green;
+  }
+
+  }
+  .card {
+    font-family: $pet-description-font;
+    background-color: $primary-color-light;
+    border: $accent-color 2px solid;
+    border-radius: 2%;
+    box-shadow: $accent-color 2px 2px 10px;
+
+    .card-header {
+      background-color: $primary-color;
+      font-weight: 600;
+      font-family: $pet-name-font;
+      color: $primary-text-color
+      }
+
+    .card-image {
+      border-radius: 20%;
+      border: 1px solid $primary-color-light;
+      background-color: $primary-color-light;
+    }
+    .card-body {
+      color: $primary-text-color;
+      background-color: $primary-color-light;
+    }
+    .color {
+      font-family: $main-font;
+    }
+    .card-text {
+      margin: 0 0.75em;
+    }
+    .btn {
+      margin: .5em;
+      align-self: center;
+      width: 50%;
+    }
+    .cat {
+      color: purple;
+    }
+    .dog {
+      color: orangered;
+    }
+    .dino {
+      color: green;
+    }
+  }
+} // Body ending

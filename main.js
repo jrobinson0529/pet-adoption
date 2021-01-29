@@ -219,15 +219,15 @@ const pets = [
   const petAdopter = (array) => {
     let domString = '';
     for (let i = 0; i < array.length; i++) {
-      domString += `<div class="card text-center my-5" style="width: 15rem;" id=${i}>
+      domString += `<div class="card text-center my-5 mx-3" style="width: 15rem;" id=${i}>
                         <div class="card-header">${array[i].name}</div>
-                        <div class="card-image my-2"><img src=${array[i].imageUrl} alt="cat" class="card-image img-thumbnail w-75"></div>
+                        <div class="card-image my-2"><img src=${array[i].imageUrl} alt="It's a ${array[i].type}" class="card-image img-thumbnail w-75"></div>
                       <div class="card-body p-0">
-                        <p class="fs-5 m-0">${array[i].color}</p>
+                        <p class="fs-5 m-0 color">${array[i].color}</p>
                         <p class="card-text fs-6">${array[i].specialSkill}</p>
       </div>
-      <div class="card-footer text-muted">${array[i].type}</div>
-      <button type="button" id=${i} class="btn btn-outline-danger">Danger</button>
+      <div class="card-footer ${array[i].type}">${array[i].type.toUpperCase()}</div>
+      <button type="button" id=${i} class="btn btn-danger">Delete</button>
     </div>`;
     }
     printToDom("#pet-card-container", domString);
