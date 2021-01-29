@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  color: #FFFFFF;
-  background-color: #0097A7;
+  color: #ffffff;
+  background-color: #0097a7;
   font-family: "Bree Serif", serif;
 }
 body header {
@@ -38,25 +38,25 @@ body .btn-group-lg #dino {
 }
 body .card {
   font-family: "Karla", sans-serif;
-  background-color: #B2EBF2;
-  border: #536DFE 2px solid;
+  background-color: #b2ebf2;
+  border: #536dfe 2px solid;
   border-radius: 2%;
-  box-shadow: #536DFE 2px 2px 10px;
+  box-shadow: #536dfe 2px 2px 10px;
 }
 body .card .card-header {
-  background-color: #00BCD4;
+  background-color: #00bcd4;
   font-weight: 600;
   font-family: "Architects Daughter", cursive;
   color: #212121;
 }
 body .card .card-image {
   border-radius: 20%;
-  border: 1px solid #B2EBF2;
-  background-color: #B2EBF2;
+  border: 1px solid #b2ebf2;
+  background-color: #b2ebf2;
 }
 body .card .card-body {
   color: #212121;
-  background-color: #B2EBF2;
+  background-color: #b2ebf2;
 }
 body .card .color {
   font-family: "Bree Serif", serif;
