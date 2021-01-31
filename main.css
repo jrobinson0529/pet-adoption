@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  color: #FFFFFF;
-  background-color: #0097A7;
+  color: #ffffff;
+  background-color: #0097a7;
   font-family: "Bree Serif", serif;
 }
 body header {
@@ -27,8 +27,19 @@ body .btn-group-lg .btn {
   width: 100px;
   margin: 1em;
 }
+body .btn-group-lg .btn:focus,
+body .btn-group-lg .btn:active {
+  outline: none;
+  -moz-out-style: none;
+  border-color: #bdbdbd;
+  box-shadow: #bdbdbd 0px 0px 0px 2px;
+}
 body .btn-group-lg #cat {
   background-color: purple;
+}
+body .btn-group-lg #cat:hover, body .btn-group-lg #dog:hover, body .btn-group-lg #dino:hover {
+  filter: brightness(85%);
+  transition: 300ms;
 }
 body .btn-group-lg #dog {
   background-color: orangered;
@@ -38,25 +49,25 @@ body .btn-group-lg #dino {
 }
 body .card {
   font-family: "Karla", sans-serif;
-  background-color: #B2EBF2;
-  border: #536DFE 2px solid;
+  background-color: #b2ebf2;
+  border: #536dfe 2px solid;
   border-radius: 2%;
-  box-shadow: #536DFE 2px 2px 10px;
+  box-shadow: #536dfe 2px 2px 10px;
 }
 body .card .card-header {
-  background-color: #00BCD4;
+  background-color: #00bcd4;
   font-weight: 600;
   font-family: "Architects Daughter", cursive;
   color: #212121;
 }
 body .card .card-image {
   border-radius: 20%;
-  border: 1px solid #B2EBF2;
-  background-color: #B2EBF2;
+  border: 1px solid #b2ebf2;
+  background-color: #b2ebf2;
 }
 body .card .card-body {
   color: #212121;
-  background-color: #B2EBF2;
+  background-color: #b2ebf2;
 }
 body .card .color {
   font-family: "Bree Serif", serif;
